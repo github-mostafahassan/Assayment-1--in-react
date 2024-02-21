@@ -1,0 +1,46 @@
+
+
+
+header input{
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4d4a4a;
+    
+}
+
+header  .icon{
+    position: relative;
+    /* text-align: ; */
+    /* width: 80%; */
+    /* background: #00cf91;*/
+     
+}
+
+header  .icon::after {
+
+
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background: #000000;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100%;
+    z-index: 8888;
+    
+} 
+
+
+/* header  .icon::before {
+
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background: #b82929;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    
+}  */

@@ -1,0 +1,27 @@
+
+
+.hed{
+    background: #06b49d;
+}
+
+
+header .text i{
+    position: relative;
+}
+
+ header .text i::after {
+
+
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background: #ffffff;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    
+} 
+
+
+

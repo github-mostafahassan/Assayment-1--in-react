@@ -1,0 +1,21 @@
+
+
+
+header  .icon{
+    position: relative;
+    /* color: blue; */
+    
+}
+
+ header  .icon::after {
+
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background: #ffffff;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    
+} 

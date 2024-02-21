@@ -1,0 +1,43 @@
+
+
+
+
+.test{
+    margin-top: 100px;
+}
+
+
+header  i{
+    position: relative;
+    /* text-align: ; */
+    
+}
+
+ header  i::after {
+
+
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background: #000000;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+
+
+    
+} 
+
+
+
+.bls{
+    font-size: 50px;
+    background-color:cornflowerblue;
+    opacity: 0.0;
+    transition: 0.7s all;
+}
+
+.bls:hover{
+    opacity: 0.9;
+}
